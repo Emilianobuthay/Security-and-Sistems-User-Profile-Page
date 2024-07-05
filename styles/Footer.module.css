@@ -1,0 +1,10 @@
+/* styles/Footer.module.css */
+.footer {
+  background: linear-gradient(to right, #ff7e5f, #ff7e5f); 
+    padding: 12px 16px;
+    text-align: center;
+    font-size: 12px; 
+    color: #ffffff; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  

@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Junge&display=swap');
+
+.previews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #a8a5a5;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    z-index: 1;
+  }
+  .svgBackground {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+  }
+  
+  .preview {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .previewImg {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .previewImgInner {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 60vh;
+    filter: brightness(0.5);
+  }
+  
+  .previewTitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 8rem;
+    font-weight: 1000;
+    color: #cfcbcb63;
+    
+    white-space: nowrap;
+    z-index: 1;
+    text-transform: uppercase;
+  }
+  
+  .previewInfo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+  }
+  
+  .previewColumnTitleMain {
+    font-size: 1.5rem;
+    font-weight: 700;
+    flex-basis: 100%;
+  }
+  
+  .previewYear {
+    font-size: 1rem;
+    font-weight: 400;
+    flex-basis: 100%;
+    margin-bottom: 20px;
+    color:rgb(165, 166, 167);
+  }
+  
+  .previewDetails {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .previewColumn {
+    width: 100%;
+    max-width: 45%;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    
+    
+  }
+  .svgBackground {
+        /* position: relative; */
+        top: 84%;
+        left: -100px;
+        width: 1;
+        height: 51%;
+        z-index: -1;
+        box-sizing: 30px;
+        transform: rotate(45deg); 
+  }
+  
+  
+  .previewColumnTitle {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  
+  .previewBack {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 0;
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  @media (max-width: 768px) {
+    .previewTitle {
+      font-size: 2.3rem;
+      font-weight: 2000;
+    }
+  
+    .previewColumn {
+      max-width: 100%;
+    }
+  }
+  

@@ -1,0 +1,63 @@
+/* styles/About.module.css */
+.container {
+    display: grid;
+    gap: 32px; 
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  
+  .heading {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #b6b4b4c2;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .paragraph {
+    margin-top: 8px;
+    color: #888; 
+    line-height: 1.6;
+    width: 80vw;
+    margin-left: 30px;
+    text-align: center;
+  }
+  
+  .centeredContainer {
+    position: relative;
+    margin-left: 60px;
+    margin-bottom: 50px;  
+  }
+
+  .sectionDivider {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, #696968, #ffffff); 
+    margin: 20px 0;   
+    opacity: 0.5;     
+  }
+ 
+  @media (min-width: 768px) {
+    .container {
+      display: grid;
+      justify-content: center;
+        align-items: center;
+      gap: 32px; 
+      margin-top: 80px;
+      margin-bottom: 80px;
+    }
+  
+    .paragraph {
+      margin-top: 8px;
+      color: #888; 
+      line-height: 1.6;
+      margin-left: 60px;
+      width: 90vw;
+    }
+  }

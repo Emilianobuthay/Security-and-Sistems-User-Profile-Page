@@ -1,0 +1,59 @@
+/* styles/SubmitBtn.module.css */
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    height: 3rem;
+    width: 8rem;
+    background-color: #1f2937; 
+    color: white;
+    border-radius: 9999px; 
+    outline: none;
+    transition: all 0.2s;
+  }
+  
+  .button:focus {
+    transform: scale(1.1); 
+  }
+  
+  .button:hover {
+    transform: scale(1.1);
+    background-color: #111827; 
+  }
+  
+  .button:active {
+    transform: scale(1.05); 
+  }
+  
+  .button:disabled {
+    transform: scale(1); 
+    opacity: 0.65; 
+  }
+  
+  .spinner {
+    height: 1.25rem; 
+    width: 1.25rem; 
+    border-bottom: 2px solid white; 
+    border-radius: 9999px; 
+    animation: spin 1s linear infinite; 
+  }
+  
+  .icon {
+    font-size: 0.75rem; 
+    transition: all 0.2s; 
+  }
+  
+  .iconHover {
+    transform: translateY(-0.25rem); 
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
